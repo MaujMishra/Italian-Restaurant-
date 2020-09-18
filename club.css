@@ -1,0 +1,255 @@
+html{
+    font-size:20px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:rgba(172, 122, 16,0.8);
+}
+
+ /* Navigation bar*/
+
+nav{
+    background-color:rgb(155, 10, 10);
+    padding:1% 0;
+    width:100%;
+}
+
+nav ul{
+    float:right;
+    margin-right:1%;
+    margin-top:1%;
+    word-spacing:1.2rem;
+}
+
+ul li a{
+    color:rgb(173, 173, 56);
+    font-size:1rem;
+    text-decoration: none;
+    font-family:Roboto,"Sans Serif";
+}
+
+nav img{
+    max-width:8.2%;
+    min-width:5rem;
+    height:auto;
+    margin-left:1%;
+}
+
+ul li a:hover{
+    color:rgb(233, 74, 74);
+}
+ul li , ul{
+    display: inline-block;
+}
+
+/*Header*/
+
+header{
+    background-image: url("https://fondue.bg/wp-content/uploads/2019/09/italiancuisine.jpg");
+    height:35rem;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+}
+
+header h1{
+    text-align:center;
+    margin:auto;
+    width:30rem;
+    position:relative;
+    top:5%;
+    color:rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight:bolder;
+}
+
+
+/*Menu*/
+
+#Menu{
+    text-align:center;
+    border-bottom:2px solid;
+    width:5rem;
+    color:white;
+    margin: 0.5rem auto;
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    width:90%;
+    justify-content: center;
+    margin:auto;
+}
+
+.inline{
+    min-width:20rem;
+    height:17rem;
+    flex-shrink:0;
+    border: 2px solid black;
+    margin: 1%;
+    overflow:auto;
+    color:white;
+    font-weight:bolder;
+}
+
+.inline span{
+    float:right;
+}
+.inline p , .inline h4{
+    padding:1%;
+}
+
+.inline h4{
+    border-bottom:1px solid;
+    width:25%;
+    text-align:center;
+    margin:0.5rem auto;
+}
+
+
+.appetizers{
+    background-image: url("https://images.unsplash.com/photo-1581073759002-70a0a2044072?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-size:cover;
+    transform: rotate('90');
+}
+
+.pizzas{
+    background-image: url("https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.pastas{
+    background-image: url("https://images.unsplash.com/photo-1579684947550-22e945225d9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.lasagne{
+    background-image: url("https://images.unsplash.com/photo-1546453570-d2fcacdafbb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.salads{
+    background-image: url("https://images.unsplash.com/photo-1580013759032-c96505e24c1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.beverages{
+    background-image:url("https://images.unsplash.com/photo-1529892485617-25f63cd7b1e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.desserts{
+    background-image: url("https://images.unsplash.com/photo-1555072930-714bba1d24e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+    background-position: right;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/*Bar menu*/
+
+#bar{
+    text-align:center;
+    width:10rem;
+    margin:0.5rem auto;
+    border-bottom:2px solid;
+    color:white;
+}
+
+.barMenu{
+    display: flex;
+    flex-wrap:wrap;
+    margin:auto;
+    width:90%;
+    justify-content: center;
+}
+
+.wine{
+    background-image: url("https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.cocktail{
+    background-image:url("https://images.unsplash.com/photo-1546171753-97d7676e4602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:right;
+}
+
+.beer{
+    background-image:url("https://images.unsplash.com/photo-1567579518027-7a113279f8ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-position:right;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*gellery*/
+
+#gallery{
+    text-align:center;
+    margin:0.5rem auto;
+    color:white;
+    width:8rem;
+    border-bottom:2px solid;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    width:90%;
+    margin:auto;
+    justify-content: center;
+}
+
+.gallery img{
+    margin:0.5rem;
+}
+
+/*Media quaries*/
+
+@media only screen and (max-width:600px){
+    nav{
+        width:100%;
+        height:3rem;
+    }
+    
+    nav img , nav ul{
+        position:relative;
+        top:0.3rem;
+    }
+
+    header h1{
+        width:20rem;
+    }
+
+    menu .inline{
+        height: 30rem;
+    }
+  
+}
+
+@media only screen and (max-width: 480px) and (resolution: portrait){
+    .gallery , .barMenu, .menu {
+        flex-direction:column;
+
+    }
+}
